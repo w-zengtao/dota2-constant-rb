@@ -1,4 +1,4 @@
-class ConstantMigration < ActiveRecord::Migration[5.2]
+class CreateDota2Constant < ActiveRecord::Migration[5.2]
 
   def self.up
     create_table :dota2_abilities, force: true do |t|
